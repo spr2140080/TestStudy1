@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">TestStudy1</string>
+    <string name="title_activity_menuba">MainActivity</string>
+    <string name="title_ToDO">ToDoリスト</string>
+    <string name="title_diary">日記</string>
+    <string name="title_graph">グラフ</string>
+    <string name="title_target">目標</string>
+    <string name="title_trivia">豆知識</string>
+    <string name="title_time">タイマー</string>
 </resources>

@@ -9,15 +9,15 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.example.teststudy1.databinding.ActivityMenubaBinding
 
-class MainActivity : AppCompatActivity() {
+class menuba : AppCompatActivity() {
 
-    private lateinit var binding: ActivityMenubaBinding
+private lateinit var binding: ActivityMenubaBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        binding = ActivityMenubaBinding.inflate(layoutInflater)
-        setContentView(binding.root)
+     binding = ActivityMenubaBinding.inflate(layoutInflater)
+     setContentView(binding.root)
 
         val navView: BottomNavigationView = binding.navView
 
